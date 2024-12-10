@@ -66,7 +66,11 @@ This project is greatly inspired by Ana Aragão's beautiful artworks. The projec
 ## Credits
 
 Guilherme Almeida - Design and Development
+
 Tiago Martins - Supervision
+
 Sérgio Rebelo - Supervision
+
 João Cunha - Supervision
+
 Luísa Brito - Companionship and Banter
