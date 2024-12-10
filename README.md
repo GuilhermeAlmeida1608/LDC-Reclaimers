@@ -1,9 +1,9 @@
-# LDC-Reclaimers
+# Reclaimers
+
+![Scene Example](/docs/scene.jpg)
 
 ## About
 This project, under the working title "Reclaimers", is a building generator implemented in Rhino Grasshopper, with a strong emphasis on busy, irregular megastructures, and a very low emphasis on functionality; it aims for an aesthetically pleasing and creative believability.
-
-The name is in reference to Ana Aragão's "Vertical Reclamation of Individual Spaces" series, which greatly inspired this project. Please do check out her art at https://www.anaaragao.com/. 
 
 Version 1.4's implementation already includes many of the basic features intended for the system, namely the basic building generation and its respective customizable parameters, as well as the basis for a customizable and expandable module system.
 
@@ -44,8 +44,20 @@ To generate your first (and hopefully not last) building:
 
 - Open the Grasshopper Remote Control Panel (Go into "View -> Remote Control Panel" in the Grasshopper interface). A window like this should open:
 
-![RCP](/docs/instructions.jpg)
+![Remote Control Panel](/docs/instructions.jpg)
 
 (Most buttons and sliders are explained and can be used through the Remote Control Panel. However, in case it hasn't appeared, or in case you wish to look through my (admittedly meandering) code, you can guide yourself by the instructions in the image above - although you'll have to look for the sliders/buttons by their names.)
 
 
+## Acknowledgements
+
+This project was done as part of the Computational Design Lab course for the MSc of Design and Multimedia at the University of Coimbra, under the supervision of professors Tiago Martins, Sérgio Rebelo and João Cunha.
+This project is greatly inspired by Ana Aragão's beautiful artworks. The project's name is in reference to the "Vertical Reclamation of Individual Spaces" series. Please do check out her art at https://www.anaaragao.com/. 
+
+## Credits
+
+Guilherme Almeida - Design and Development
+Tiago Martins - Supervision
+Sérgio Rebelo - Supervision
+João Cunha - Supervision
+Luísa Brito - Companionship and Banter
