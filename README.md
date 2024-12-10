@@ -54,7 +54,7 @@ To generate your first (and hopefully not last) building:
   - To change the initial floorplan, simply modify the origin-centered plane, or set a new geometry at the [Geo] node (right-click the node, click "Set one Geometry" and then the geometry you wish to change it to in the Rhino interface) in this area:
 ![Code1](/docs/initialfloorplan.png)
   - To swap out or add new modules, head to this section, and modify the existing modules or Shift-connect a new Referenced Geometry to the relay (add a new Geometry node, set the geometry to your module, and press Shift while dragging the connector to the relay), respectively:
-![Code2](/docs/changemodules.png)
+![Code2](/docs/addmodules.png)
 
 ## Acknowledgements
 
