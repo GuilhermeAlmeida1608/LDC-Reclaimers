@@ -1,11 +1,13 @@
 # Reclaimers
 
-![Scene Example](/docs/scene.jpg)
+![Showcase2](/docs/showcase2.jpg)
 
 ## About
 This project, under the working title "Reclaimers", is a building generator implemented in Rhino Grasshopper, with a strong emphasis on busy, irregular megastructures, and a very low emphasis on functionality; it aims for an aesthetically pleasing and creative believability.
 
 Version 1.4's implementation already includes many of the basic features intended for the system, namely the basic building generation and its respective customizable parameters, as well as the basis for a customizable and expandable module system.
+
+![Showcase](/docs/showcase.jpg)
 
 ## Getting Started
 
@@ -48,6 +50,11 @@ To generate your first (and hopefully not last) building:
 
 (Most buttons and sliders are explained and can be used through the Remote Control Panel. However, in case it hasn't appeared, or in case you wish to look through my (admittedly meandering) code, you can guide yourself by the instructions in the image above - although you'll have to look for the sliders/buttons by their names.)
 
+- The system also allows you to customize the initial floorplan and swap out and/or add new modules, though these take a bit more effort.
+  - To change the initial floorplan, simply modify the origin-centered plane, or set a new geometry at the [Geo] node (right-click the node, click "Set one Geometry" and then the geometry you wish to change it to in the Rhino interface) in this area:
+![Code1](/docs/initialfloorplan.png)
+  - To swap out or add new modules, head to this section, and modify the existing modules or Shift-connect a new Referenced Geometry to the relay (add a new Geometry node, set the geometry to your module, and press Shift while dragging the connector to the relay), respectively:
+![Code2](/docs/changemodules.png)
 
 ## Acknowledgements
 
