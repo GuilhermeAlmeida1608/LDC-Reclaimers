@@ -30,6 +30,9 @@ Version 1.4's implementation already includes many of the basic features intende
 To get the project running, you must:
 
 - Open the "Reclaimers_repo_version.3dm" file. The scene should look like this:
+
+![Scene Example](/docs/scene.jpg)
+
 - In the Rhino console, initialize Grasshopper by executing the "Grasshopper" command. The Grasshopper interface should open.
 - Open the "tokyo1.4.gh" file in the Grasshopper interface.
   - At this point, the program should start running automatically. Give it some time to let it run for the first time.
@@ -41,6 +44,8 @@ To generate your first (and hopefully not last) building:
 
 - Open the Grasshopper Remote Control Panel (Go into "View -> Remote Control Panel" in the Grasshopper interface). A window like this should open:
 
-- Most buttons and sliders are explained and can be used through the Remote Control Panel. However, in case it hasn't appeared, or in case you wish to look through my admittedly meandering code, you can guide yourself by the instructions in the image above (although you'll have to look for the sliders/buttons by their names).
+![RCP](/docs/instructions.jpg)
+
+(Most buttons and sliders are explained and can be used through the Remote Control Panel. However, in case it hasn't appeared, or in case you wish to look through my (admittedly meandering) code, you can guide yourself by the instructions in the image above - although you'll have to look for the sliders/buttons by their names.)
 
 
